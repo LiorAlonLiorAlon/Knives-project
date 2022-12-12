@@ -1,0 +1,257 @@
+#background {
+
+    background-color: #586F7C;
+
+}
+
+#tool-bar {
+    background-color: black;
+    height: 10vh;
+    border-radius: 15px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    filter: opacity(0.7);
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.buttons {
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 30vw;
+    height: 9vh;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+#banner-pic {
+    width: 100vw;
+    height: 62vh;
+    display: flex;
+    border-radius: 5%;
+    
+
+}
+
+#banner-h {
+    display: none;
+    position: absolute;
+    top: 21%;
+    font-size: x-large;
+
+
+}
+
+
+#banner-pic:hover~#banner-h {
+    display: block;
+    font-family: fantasy;
+    margin: 5vw;
+    padding: 0%;
+
+
+}
+
+#about-us {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.knives-type {
+    display: flex;
+
+
+}
+
+#banner {
+    display: flex;
+    justify-content: inline-block;
+
+}
+
+.knives-type {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#wetstone {
+    border-radius: 11%;
+
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+}
+
+#wetstone:hover {
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+    box-shadow: 6px 6px 4px 3px rgba(0, 0, 0, 0.82);
+    transition: all 0.3s ease-in-out;
+
+
+
+}
+
+#bunka {
+    border-radius: 11%;
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+}
+
+#bunka:hover {
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+    box-shadow: 6px 6px 4px 3px rgba(0, 0, 0, 0.82);
+    transition: all 0.3s ease-in-out;
+
+}
+
+#nakiri {
+    border-radius: 11%;
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+}
+
+#nakiri:hover {
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+    box-shadow: 6px 6px 4px 3px rgba(0, 0, 0, 0.82);
+    transition: all 0.3s ease-in-out;
+
+}
+
+#yanagiba {
+    border-radius: 11%;
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+}
+
+#yanagiba:hover {
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+    box-shadow: 6px 6px 4px 3px rgba(0, 0, 0, 0.82);
+    transition: all 0.3s ease-in-out;
+
+}
+
+#kiritsuke {
+    border-radius: 11%;
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+}
+
+#kiritsuke:hover {
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+    box-shadow: 6px 6px 4px 3px rgba(0, 0, 0, 0.82);
+    transition: all 0.3s ease-in-out;
+
+}
+
+#gyuto {
+    border-radius: 11%;
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+}
+
+#gyuto:hover {
+    width: 25vw;
+    height: 21vh;
+    margin: 1vw;
+    border: 2px solid black;
+    box-shadow: 6px 6px 4px 3px rgba(0, 0, 0, 0.82);
+    transition: all 0.3s ease-in-out
+}
+
+.Footer {
+    color: antiquewhite;
+    width: 98vw;
+    height: 10vh;
+    background-color: rgb(12, 5, 5);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    font-family: sans-serif;
+
+}
+
+#v-gyuto{
+    width: 60vw;
+    height: 30vh;
+    border-radius: 10px;
+    animation: puff-in-center 1.5s 
+    
+
+}
+@-webkit-keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-center {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
